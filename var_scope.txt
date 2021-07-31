@@ -1,0 +1,11 @@
+Q. What is the scope of num, square, input_num, result?
+Ans1:  The scope of num, square is restricted inside the function only whereas input_num, result has scope to whole program because declared outside the function.
+
+Q.  What is the lifetime of each variable? When will they be created and destroyed?
+Ans2:  They are created when the program starts running and destroyed when the program is terminated.
+
+Q. What would happen if input_num had a value of less than 100?
+Ans3:  If input_num < 100 the program will give name error ‘result’ is not defined.
+
+Q. What would be the scope and value of `result` if input_num has a value of less than 100?
+Ans4:  Since the value of input_num < 100, the variable ‘result ’ won’t be created and it will not have any scope either. 
